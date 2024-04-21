@@ -35,10 +35,12 @@ semester : x --> gives attendance of that respective semester
 Use as:
 
 ```sh
-python -u fetcher.py
+python -u fetcher.py # python3 in case of some linux distributions
 ```
 
-you can also make a desktop shortcut to the script and then run by just double clicking it,
+### Shortcut
+#### Windows
+You can also make a desktop shortcut to the script and then run by just double clicking it,
 
 For windows:
 Right click --> New --> Shortcut
@@ -47,5 +49,12 @@ In the location prompt write:
 ```sh
 python -u /path/to/fetcher.py
 ``` 
+
+#### Linux
+In linux I prefer creating a shell script as script.sh for shortcut:
+```sh
+#!/bin/sh
+python -u /path/to/fetcher.py # python3 in case of some linux distributions
+```
 
 
