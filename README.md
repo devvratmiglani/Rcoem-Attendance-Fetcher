@@ -22,7 +22,7 @@ git clone https://github.com/devvratmiglani/Rcoem-Attendance-Fetcher.git
 
 cd Rcoem-Attendance-Fetcher
 
-pip install -r requiremenst.txt
+pip install -r requirements.txt
 ```
 
 ## Adding Credentials
