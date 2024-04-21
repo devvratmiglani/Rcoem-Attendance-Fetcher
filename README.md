@@ -33,8 +33,19 @@ semester : x --> gives attendance of that respective semester
 
 ### Usage 
 Use as:
-'''sh
+
+```sh
 python -u fetcher.py
-'''
+```
+
+you can also make a desktop shortcut to the script and then run by just double clicking it,
+
+For windows:
+Right click --> New --> Shortcut
+
+In the location prompt write:
+```sh
+python -u /path/to/fetcher.py
+``` 
 
 
