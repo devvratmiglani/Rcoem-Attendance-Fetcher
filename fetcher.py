@@ -4,16 +4,10 @@ import math
 import requests
 from colorama import Fore
 
-# color
 color = Fore.RESET
 
-# get cred
-
-# cred = open(r'\\'.join(__file__.split('\\')[:-1])+'\\'+"auth.json")
-# cred = json.load(cred)
-
 current_directory = os.path.dirname(os.path.abspath(__file__))
-cred_path = os.path.join(current_directory, "auth.json")
+cred_path = os.path.join(current_directory, "auth\\auth.json")
 cred = json.load(open(cred_path,'r'))
 
 print('')
