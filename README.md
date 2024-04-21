@@ -28,7 +28,8 @@ pip install -r requirements.txt
 ## Adding Credentials
 you have to add your credentials to `auth/auth.json` as well as the semester
 
-semester : 0 --> gives attendance of all previous + current
+semester : 0 --> gives attendance of all previous + current semesters
+
 semester : x --> gives attendance of that respective semester
 
 ## Usage 
