@@ -31,15 +31,15 @@ you have to add your credentials to `auth/auth.json` as well as the semester
 semester : 0 --> gives attendance of all previous + current
 semester : x --> gives attendance of that respective semester
 
-### Usage 
+## Usage 
 Use as:
 
 ```sh
 python -u fetcher.py # python3 in case of some linux distributions
 ```
 
-### Shortcut
-#### Windows
+## Shortcut
+### Windows
 You can also make a desktop shortcut to the script and then run by just double clicking it,
 
 For windows:
@@ -50,7 +50,7 @@ In the location prompt write:
 python -u /path/to/fetcher.py
 ``` 
 
-#### Linux
+### Linux
 In linux I prefer creating a shell script as script.sh for shortcut:
 ```sh
 #!/bin/sh
