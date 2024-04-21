@@ -25,7 +25,7 @@ cd Rcoem-Attendance-Fetcher
 pip install -r requiremenst.txt
 ```
 
-### Adding Credentials
+## Adding Credentials
 you have to add your credentials to `auth/auth.json` as well as the semester
 
 semester : 0 --> gives attendance of all previous + current
