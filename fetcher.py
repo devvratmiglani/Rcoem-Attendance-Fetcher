@@ -7,7 +7,7 @@ from colorama import Fore
 color = Fore.RESET
 
 current_directory = os.path.dirname(os.path.abspath(__file__))
-cred_path = os.path.join(current_directory, "auth\\auth.json")
+cred_path = os.path.join(current_directory, "auth/auth.json")
 cred = json.load(open(cred_path,'r'))
 
 print('')
